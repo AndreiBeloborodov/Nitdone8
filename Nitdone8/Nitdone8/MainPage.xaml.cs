@@ -19,6 +19,23 @@ namespace Nitdone8
             esm_btn.Clicked += new EventHandler(Btns_Click);
             Button tsm_btn = new Button { Text = "Teisipäev" };
             st.Children.Add(tsm_btn);
+            tsm_btn.Clicked += new EventHandler(Btns_Click);
+            Button klm_btn = new Button { Text = "Kolmapäev" };
+            st.Children.Add(klm_btn);
+            klm_btn.Clicked += new EventHandler(Btns_Click);
+            Button nlm_btn = new Button { Text = "Neljapäev" };
+            st.Children.Add(nlm_btn);
+            nlm_btn.Clicked += new EventHandler(Btns_Click);
+            Button rdl_btn = new Button { Text = "Reedel" };
+            st.Children.Add(rdl_btn);
+            rdl_btn.Clicked += new EventHandler(Btns_Click);
+            Button lul_btn = new Button { Text = "Laupäev" };
+            st.Children.Add(lul_btn);
+            lul_btn.Clicked += new EventHandler(Btns_Click);
+            Button puh_btn = new Button { Text = "Pühapäev" };
+            st.Children.Add(puh_btn);
+            puh_btn.Clicked += new EventHandler(Btns_Click);
+
 
 
             Content = st;

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Nitdone8
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Kolmapäev : ContentPage
+    public partial class Puhapaev : ContentPage
     {
-        public Kolmapäev()
+        public Puhapaev()
         {
             InitializeComponent();
         }
